@@ -56,7 +56,7 @@ namespace ShopJumps
         {
             if (JsonJumps == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Доп. прыжки");
+            SHOP_API.CreateCategory(CategoryName, "Р”РѕРї. РїСЂС‹Р¶РєРё");
 
             var sortedItems = JsonJumps
                 .Properties()
